@@ -14,6 +14,8 @@ public class Instrumento {
 	private String categoria;
 	private String descripcion;
 
+	private Instrumento() {}
+
 	public Instrumento(String nombre, String categoria, String descripcion) {
 		this.nombre = nombre;
 		this.categoria = categoria;
